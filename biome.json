@@ -1,0 +1,35 @@
+{
+    "$schema": "https://biomejs.dev/schemas/1.6.2/schema.json",
+    "organizeImports": {
+      "enabled": true
+    },
+    "files": {
+      "ignore": ["apps/website/src/pages/checkout/return/[session_id].astro"]
+    },
+    "linter": {
+      "enabled": true,
+      "rules": {
+        "a11y": {
+          "useKeyWithClickEvents": "off",
+          "noSvgWithoutTitle": "off"
+        },
+        "suspicious": {
+          "noExplicitAny": "off",
+          "noArrayIndexKey": "off"
+        },
+        "correctness": {
+          "useExhaustiveDependencies": "off"
+        }
+      }
+    },
+    "formatter": {
+      "enabled": true,
+      "formatWithErrors": false,
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineWidth": 80,
+      "lineEnding": "lf",
+      "ignore": []
+    }
+  }
+  

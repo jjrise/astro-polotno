@@ -1,17 +1,48 @@
 {
-  "name": "",
-  "type": "module",
+  "name": "polotno-astro",
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
+    "clean": "rm -rf .turbo node_modules",
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.7.0",
-    "@astrojs/check": "^0.5.10",
-    "typescript": "^5.4.5"
+    "@astrojs/partytown": "^2.0.4",
+    "@astrojs/react": "^3.1.1",
+    "@astrojs/sitemap": "^3.1.2",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vercel": "^7.5.2",
+    "@iconify-json/akar-icons": "^1.1.24",
+    "@iconify-json/ion": "^1.1.17",
+    "@iconify-json/mdi": "^1.1.65",
+    "@iconify-json/ph": "^1.1.12",
+    "@iconify-json/tabler": "^1.1.109",
+    "@trpc/client": "^10.45.2",
+    "@trpc/react-query": "^10.45.2",
+    "@trpc/server": "^10.45.2",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@wordpress/wordcount": "^3.27.0",
+    "astro": "^4.5.15",
+    "astro-icon": "^1.1.0",
+    "astro-seo": "^0.8.3",
+    "canvas": "^2.11.2",
+    "class-variance-authority": "^0.6.1",
+    "lucide-react": "^0.257.0",
+    "polotno": "^2.4.30",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-share": "^4.4.1",
+    "stripe": "^15.1.0",
+    "superjson": "^2.2.1",
+    "swiper": "^11.0.5",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "postcss": "8.4.21"
   }
 }
